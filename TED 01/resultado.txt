@@ -1,0 +1,86 @@
+=======================================================
+TED 01 - CENARIO 11: ENTREGAS
+=======================================================
+Registros lidos: 165
+Registros sem repeticao: 160
+Duplicados retirados: 5
+
+1 - ENTREGAS POR REGIAO
+-----------------------
+Norte                               36
+Centro                              35
+Sul                                 32
+Oeste                               29
+Leste                               28
+Maior volume: [('Norte', 36)]
+
+2 - ENTREGAS POR CIDADE
+-----------------------
+Fortaleza dos Nogueiras             36
+Balsas                              34
+Riachão                             32
+Tasso Fragoso                       30
+São Raimundo das Mangabeiras        28
+Maior volume: [('Fortaleza dos Nogueiras', 36)]
+
+3 - ENTREGAS POR ENTREGADOR
+---------------------------
+Entregador 04                       15
+Entregador 01                       14
+Entregador 08                       14
+Entregador 07                       12
+Entregador 11                       12
+Entregador 13                       12
+Entregador 14                       12
+Entregador 09                       11
+Entregador 03                       10
+Entregador 05                       9
+Entregador 10                       9
+Entregador 15                       9
+Entregador 06                       8
+Entregador 12                       7
+Entregador 02                       6
+Maior numero de entregas: [('Entregador 04', 15)]
+
+4 - ATRASOS POR ENTREGADOR
+--------------------------
+Entregador 01                       5
+Entregador 05                       5
+Entregador 08                       5
+Entregador 14                       5
+Entregador 12                       4
+Entregador 13                       4
+Entregador 04                       3
+Entregador 06                       3
+Entregador 09                       3
+Entregador 10                       3
+Entregador 11                       3
+Entregador 15                       3
+Entregador 03                       2
+Entregador 07                       1
+Mais atrasos: [('Entregador 08', 5), ('Entregador 01', 5), ('Entregador 14', 5), ('Entregador 05', 5)]
+
+5 - COMPARACAO DAS REGIOES
+------------------------------
+Em comum: ['Centro', 'Leste', 'Norte', 'Oeste', 'Sul']
+Somente concluidas: []
+Somente atrasadas: []
+
+6 - DISTANCIAS
+------------------------------
+Distancia total: 2522 km
+Distancia media: 23.57 km
+
+7 - RESUMO DOS STATUS
+------------------------------
+Atrasado : 49
+Entregue : 58
+Cancelado : 53
+
+8 - CIDADES DENTRO DE CADA REGIAO
+----------------------------------------
+Centro : {'São Raimundo das Mangabeiras': 6, 'Fortaleza dos Nogueiras': 10, 'Riachão': 8, 'Tasso Fragoso': 7, 'Balsas': 4}
+Leste : {'Fortaleza dos Nogueiras': 5, 'Tasso Fragoso': 7, 'Riachão': 6, 'Balsas': 6, 'São Raimundo das Mangabeiras': 4}
+Norte : {'Fortaleza dos Nogueiras': 11, 'São Raimundo das Mangabeiras': 8, 'Balsas': 8, 'Riachão': 5, 'Tasso Fragoso': 4}
+Oeste : {'São Raimundo das Mangabeiras': 3, 'Fortaleza dos Nogueiras': 6, 'Balsas': 7, 'Riachão': 8, 'Tasso Fragoso': 5}
+Sul : {'Balsas': 9, 'Riachão': 5, 'São Raimundo das Mangabeiras': 7, 'Tasso Fragoso': 7, 'Fortaleza dos Nogueiras': 4}
